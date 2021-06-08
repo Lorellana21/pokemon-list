@@ -1,20 +1,24 @@
 import React from "react";
 
 const Pokemon = (props) => {
-  return {
-    /* <article>
-      <i className={`club__icon ${props.item.fa}`}></i>
-      <h2 className="club__title">{props.item.name}</h2>
-      <h4 className="members__title">Members:</h4>
-      <ul>{renderMembers()}</ul>
-    </article> */
-  };
-  // const renderMembers = () => {
-  //   //console.log(props.item.members);
+  const renderTypes = () => {
+    //console.log(props.item.url);
 
-  //   return props.item.members.map((member, index) => {
-  //     return <li key={index}>{member}</li>;
-  //   });
+    return props.item.types.map((type, index) => {
+      return <li key={index}>{type}</li>;
+    });
+  };
+
+  return (
+    <>
+      <article>
+        <img src={props.item.url} alt="Pokemon" />
+        <h2 className="poke__title">{props.item.name}</h2>
+        <h4 className="poke__types">{props.item.types}</h4>
+        <ul>{renderTypes()}</ul>
+      </article>
+    </>
+  );
 };
 
 export default Pokemon;
