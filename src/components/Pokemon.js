@@ -1,21 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
+import "../stylesheets/App.scss";
 
 const Pokemon = (props) => {
   const renderTypes = () => {
-    //console.log(props.item.url);
+    //console.log(props.item.types);
 
     return props.item.types.map((type, index) => {
-      return <li key={index}>{type}</li>;
+      return (
+        <li className="poke__type" key={index}>
+          {type}
+        </li>
+      );
     });
   };
 
   return (
     <>
-      <article>
-        <img src={props.item.url} alt="Pokemon" />
+      <article className="poke__card">
+        <img src={props.item.url} alt={props.item.name} />
         <h2 className="poke__title">{props.item.name}</h2>
-        <h4 className="poke__types">{props.item.types}</h4>
-        <ul>{renderTypes()}</ul>
+        <ul className="poke__types">{renderTypes()}</ul>
       </article>
     </>
   );

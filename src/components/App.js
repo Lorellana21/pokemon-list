@@ -1,14 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "../stylesheets/App.scss";
 import data from "../data/data.json";
 import PokeList from "./PokeList.js";
-//console.log(data);
 
 const App = () => {
+  const [pokemons] = useState(data);
+  //console.log(pokemons);
   return (
     <>
-      <h1 className="App-title">Mi lista de pokemon</h1>
-      <PokeList data={data}></PokeList>
+      <h1 className="App__title">Mi lista de pokemon</h1>
+      <PokeList data={pokemons}></PokeList>
     </>
   );
 };
