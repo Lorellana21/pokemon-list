@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import "../stylesheets/App.scss";
+import PropTypes from "prop-types";
 
 const Pokemon = (props) => {
   const renderTypes = () => {
-    //console.log(props.item.types);
-
     return props.item.types.map((type, index) => {
       return (
         <li className="poke__type" key={index}>
@@ -23,6 +22,16 @@ const Pokemon = (props) => {
       </article>
     </>
   );
+};
+
+Pokemon.propTypes = {
+  item: PropTypes.exact({
+    name: PropTypes.string.isRequired,
+    id: PropTypes.number.isRequired,
+    types: PropTypes.array.isRequired,
+    evolution: PropTypes.string,
+    url: PropTypes.string.isRequired,
+  }),
 };
 
 export default Pokemon;

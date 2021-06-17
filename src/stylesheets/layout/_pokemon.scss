@@ -1,0 +1,23 @@
+.poke__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0.1875rem solid black;
+}
+.poke__title {
+  margin: 0;
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+  text-transform: capitalize;
+  border-bottom: red;
+}
+.poke__types {
+  list-style: none;
+  text-transform: uppercase;
+}
+.poke__type {
+  border-radius: 0.5rem;
+}
