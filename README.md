@@ -17,5 +17,5 @@ To publish project to production:
  `npm run docs`
  
  ## Code composition
- Apart from root component, two additional components have ben created: Pokemon.js and PokeList.js, respectively for the list of pokemons and the card of each pokemon.
+ Apart from root component, two additional components have ben created: PokeList.js y Pokemon.js, respectively for the list of pokemons and the card of each pokemon.
  
