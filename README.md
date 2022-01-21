@@ -16,6 +16,6 @@ Project created using HTML, CSS, JS and React.
 4. Paint all cards.
 5. In addition to creating the App component we must create two components, PokeList and Pokemon,
 respectively for the list and for the card of each Pokemon.
-6. BONUS: adjust the layout to the design.
+6. BONUS: the information must be kept in the state of the component.
 
  
