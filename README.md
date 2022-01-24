@@ -1,7 +1,6 @@
-### Mid-term evaluation in the middle of the React module
+### React module`s mid-term evaluation
 
-Intermediate test in Adalab consisting of developing a web site with React, where to render a list of Pokemons.
-The Pokemon's information is taken from an array of objects that must be saved in the state of the root component: `App.js`.
+Pokemon's information is taken from a JSON file that must be saved in the state of the root component: `App.js`.
 
 ```
 [
@@ -78,7 +77,7 @@ The Pokemon's information is taken from an array of objects that must be saved i
 ]
 ```
 
-Project created using HTML, CSS, JS and React.
+
 
 ![image](https://user-images.githubusercontent.com/81922944/150493929-eeb3ade3-cb05-49c0-9a0b-38cf03a6a962.png)
 
