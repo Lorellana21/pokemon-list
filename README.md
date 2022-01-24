@@ -1,4 +1,4 @@
-### React module`s mid-term evaluation
+### React module`s mid-term evaluation ✔
 
 Pokemon's information is taken from a JSON file that must be saved in the state of the root component: `App.js`.
 
@@ -77,18 +77,17 @@ Pokemon's information is taken from a JSON file that must be saved in the state 
 ]
 ```
 
-
-
 ![image](https://user-images.githubusercontent.com/81922944/150493929-eeb3ade3-cb05-49c0-9a0b-38cf03a6a962.png)
 
-**Steps to perform the exercise**
+**Steps to perform the exercise** 📜
 
-1. Draw up the structure of components for the website on paper.
+1. Draw up the structure of components for the website on paper. ✏
 2. Create a new React application.
 3. Paint 1 card, collecting the information of the props.
-4. Paint all cards.
+4. Paint all cards. 
 5. In addition to creating the App component we must create two components, PokeList and Pokemon,
-   respectively for the list and for the card of each Pokemon.
+   respectively for the list and for the card of each Pokemon. 🐼 👾
 6. BONUS: the information must be kept in the state of the component.
+7. BONUS: it is advisable to use PropTypes.
 
  
