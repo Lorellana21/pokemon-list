@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "../stylesheets/App.scss";
 import PropTypes from "prop-types";
 
