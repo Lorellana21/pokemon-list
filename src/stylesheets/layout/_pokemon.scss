@@ -1,23 +1,42 @@
-.poke__card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-right: 5rem;
-  margin-bottom: 0.5rem;
-  border-radius: 0.5rem;
-  border: 0.1875rem solid black;
-}
-.poke__title {
-  margin: 0;
-  padding: 0.3rem 1rem;
-  font-size: 1rem;
-  text-transform: capitalize;
-  border-bottom: red;
-}
-.poke__types {
-  list-style: none;
-  text-transform: uppercase;
-}
-.poke__type {
-  border-radius: 0.5rem;
+.poke {
+  &__card {
+    color: black;
+    padding: 1rem;
+    width: 12rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ddd;
+    background-color: white;
+    box-shadow: 0px 0px 11px 12px #0499857a;
+    display: flex;
+    flex-direction: column;
+
+    & > * {
+      margin: 3px 0;
+    }
+  }
+
+  &__title {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 0.3rem 1rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bold;
+  }
+  &__types {
+    text-transform: uppercase;
+    display: flex;
+    gap: 1rem;
+  }
+  &__type {
+    margin-top: 1rem;
+
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    border: 0.1875rem solid black;
+    text-align: center;
+    color: white;
+    background-color: #0499857a;
+  }
 }

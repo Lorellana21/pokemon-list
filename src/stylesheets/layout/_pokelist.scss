@@ -1,7 +1,8 @@
-.poke__container {
-  margin: 20px;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.poke {
+  &__list {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 }

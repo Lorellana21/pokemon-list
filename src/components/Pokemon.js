@@ -16,7 +16,7 @@ const Pokemon = (props) => {
   return (
     <>
       <article className="poke__card">
-        <img src={props.item.url} alt={props.item.name} />
+        <img className="poke__img" src={props.item.url} alt={props.item.name} />
         <h2 className="poke__title">{props.item.name}</h2>
         <ul className="poke__types">{renderTypes()}</ul>
       </article>

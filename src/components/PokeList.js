@@ -10,7 +10,7 @@ const PokeList = (props) => {
       </li>
     );
   });
-  return <ul className="poke__container">{pokeItems}</ul>;
+  return <ul className="poke__list">{pokeItems}</ul>;
 };
 
 PokeList.propTypes = {
